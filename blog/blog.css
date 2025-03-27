@@ -1,0 +1,30 @@
+@import url("../style.css");
+.blog-hero-section{
+    height : 40vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color : var(--light-text-clr)
+}
+
+.back-link-cta a,
+.back-link-cta span{
+    font-size: 1.4rem;
+    color : hsla(0,0%,100%,0.8);
+
+}
+
+.back-link-cta svg{
+    transform: rotate(-180deg);
+}
+
+.back-link-cta svg path{
+    fill: hsla(0,0%,100%,0.8);
+}
+
+.back-link-cta a{
+    position : relative;
+    color : hsla(0,0%,100%,0.98);
+}
+

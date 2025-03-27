@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="page">
+      <nav class="navbar navbar-expand-lg sticky-top" data-bs-theme="dark">
+        <div class="container">
+          <a class="navbar-brand" href="#">LexCorp</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navMenu"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navMenu">
+            <ul class="navbar-nav gap-md-3 ms-auto mt-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Works">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../blog/blog.html">Blog</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Contact">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main>
+        <!-- Hero Section -->
+        <section
+          id="Hero"
+          class="hero-section text-light p-md-5 d-flex align-items-center"
+        >
+          <div
+            class="container d-lg-flex align-items-center justify-content-between"
+          >
+            <div class="content-div">
+              <div class="social-icons-div d-flex gap-3">
+                <a href="#" class="social-icon">
+                  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    fill="#000000"
+                    width="800px"
+                    height="800px"
+                    viewBox="0 0 24 24"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-icon">
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                  <svg
+                    width="800px"
+                    height="800px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                    stroke="#000000"
+                    stroke-width="0.36"
+                  >
+                    <g id="SVGRepo_bgCarrier" stroke-width="0" />
+
+                    <g
+                      id="SVGRepo_tracerCarrier"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+
+                    <g id="SVGRepo_iconCarrier">
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M19.7828 3.91825C20.1313 3.83565 20.3743 3.75444 20.5734 3.66915C20.8524 3.54961 21.0837 3.40641 21.4492 3.16524C21.7563 2.96255 22.1499 2.9449 22.4739 3.11928C22.7979 3.29366 23 3.6319 23 3.99986C23 5.08079 22.8653 5.96673 22.5535 6.7464C22.2911 7.40221 21.9225 7.93487 21.4816 8.41968C21.2954 11.7828 20.3219 14.4239 18.8336 16.4248C17.291 18.4987 15.2386 19.8268 13.0751 20.5706C10.9179 21.3121 8.63863 21.4778 6.5967 21.2267C4.56816 20.9773 2.69304 20.3057 1.38605 19.2892C1.02813 19.0108 0.902313 18.5264 1.07951 18.109C1.25671 17.6916 1.69256 17.4457 2.14144 17.5099C3.42741 17.6936 4.6653 17.4012 5.6832 16.9832C5.48282 16.8742 5.29389 16.7562 5.11828 16.6346C4.19075 15.9925 3.4424 15.1208 3.10557 14.4471C2.96618 14.1684 2.96474 13.8405 3.10168 13.5606C3.17232 13.4161 3.27562 13.293 3.40104 13.1991C2.04677 12.0814 1.49999 10.5355 1.49999 9.49986C1.49999 9.19192 1.64187 8.90115 1.88459 8.71165C1.98665 8.63197 2.10175 8.57392 2.22308 8.53896C2.12174 8.24222 2.0431 7.94241 1.98316 7.65216C1.71739 6.3653 1.74098 4.91284 2.02985 3.75733C2.1287 3.36191 2.45764 3.06606 2.86129 3.00952C3.26493 2.95299 3.6625 3.14709 3.86618 3.50014C4.94369 5.36782 6.93116 6.50943 8.78086 7.18568C9.6505 7.50362 10.4559 7.70622 11.0596 7.83078C11.1899 6.61019 11.5307 5.6036 12.0538 4.80411C12.7439 3.74932 13.7064 3.12525 14.74 2.84698C16.5227 2.36708 18.5008 2.91382 19.7828 3.91825ZM10.7484 9.80845C10.0633 9.67087 9.12171 9.43976 8.09412 9.06408C6.7369 8.56789 5.16088 7.79418 3.84072 6.59571C3.86435 6.81625 3.89789 7.03492 3.94183 7.24766C4.16308 8.31899 4.5742 8.91899 4.94721 9.10549C5.40342 9.3336 5.61484 9.8685 5.43787 10.3469C5.19827 10.9946 4.56809 11.0477 3.99551 10.9046C4.45603 11.595 5.28377 12.2834 6.66439 12.5135C7.14057 12.5929 7.49208 13.0011 7.49986 13.4838C7.50765 13.9665 7.16949 14.3858 6.69611 14.4805L5.82565 14.6546C5.95881 14.7703 6.103 14.8838 6.2567 14.9902C6.95362 15.4727 7.65336 15.6808 8.25746 15.5298C8.70991 15.4167 9.18047 15.6313 9.39163 16.0472C9.60278 16.463 9.49846 16.9696 9.14018 17.2681C8.49626 17.8041 7.74425 18.2342 6.99057 18.5911C6.63675 18.7587 6.24134 18.9241 5.8119 19.0697C6.14218 19.1402 6.48586 19.198 6.84078 19.2417C8.61136 19.4594 10.5821 19.3126 12.4249 18.6792C14.2614 18.0479 15.9589 16.9385 17.2289 15.2312C18.497 13.5262 19.382 11.1667 19.5007 7.96291C19.51 7.71067 19.6144 7.47129 19.7929 7.29281C20.2425 6.84316 20.6141 6.32777 20.7969 5.7143C20.477 5.81403 20.1168 5.90035 19.6878 5.98237C19.3623 6.04459 19.0272 5.94156 18.7929 5.70727C18.0284 4.94274 16.5164 4.43998 15.2599 4.77822C14.6686 4.93741 14.1311 5.28203 13.7274 5.89906C13.3153 6.52904 13 7.51045 13 8.9999C13 9.28288 12.8801 9.5526 12.6701 9.74221C12.1721 10.1917 11.334 9.92603 10.7484 9.80845Z"
+                        fill="#0F0F0F"
+                      />
+                    </g>
+                  </svg>
+                </a>
+                <a href="#" class="social-icon">
+                  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    width="800px"
+                    height="800px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
+                      fill="#0F0F0F"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      clip-rule="evenodd"
+                      d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
+                      fill="#0F0F0F"
+                    />
+                  </svg>
+                </a>
+                <a href="#" class="social-icon">
+                  <?xml version="1.0" encoding="utf-8"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    fill="#000000"
+                    width="800px"
+                    height="800px"
+                    viewBox="0 0 32 32"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <title>linkedin</title>
+                    <path
+                      d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"
+                    ></path>
+                  </svg>
+                </a>
+                <a href="#" class="social-icon">
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    fill="#000000"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="800px"
+                    height="800px"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <g id="7935ec95c421cee6d86eb22ecd1368a9">
+                      <path
+                        style="display: inline"
+                        d="M34.354,0.5h45.959l29.604,91.096h2.863L141.013,0.5h46.353l-53.107,133.338v94.589H88.641V138.08
+      L34.354,0.5z M192.193,98.657c0-13.374,5.495-24.003,16.493-31.938c10.984-7.934,25.749-11.901,44.3-11.901
+      c16.893,0,30.728,4.192,41.506,12.55c10.805,8.358,16.193,19.112,16.193,32.287v89.2c0,14.771-5.301,26.373-15.868,34.782
+      c-10.579,8.408-25.151,12.625-43.684,12.625c-17.859,0-32.143-4.342-42.866-13.024c-10.709-8.683-16.074-20.36-16.074-35.057
+      V98.657z M234.205,191.424c0,4.766,1.44,8.409,4.354,11.029c2.907,2.595,7.055,3.867,12.451,3.867c5.532,0,9.93-1.297,13.18-3.942
+      c3.256-2.669,4.891-6.313,4.891-10.954V97.359c0-3.768-1.672-6.812-4.99-9.132c-3.318-2.321-7.679-3.494-13.081-3.494
+      c-4.972,0-9.027,1.173-12.133,3.494c-3.119,2.32-4.672,5.364-4.672,9.132V191.424z M459.992,57.588v172.711h-40.883v-19.063
+      c-7.547,7.037-15.381,12.375-23.541,16.069c-8.146,3.643-16.068,5.489-23.729,5.489c-9.455,0-16.592-2.57-21.383-7.71
+      c-4.791-5.141-7.186-12.85-7.186-23.13V57.588h40.895v132.39c0,4.117,0.861,7.061,2.57,8.907c1.723,1.822,4.492,2.745,8.322,2.745
+      c3.018,0,6.824-1.223,11.4-3.643c4.604-2.42,8.82-5.514,12.65-9.282V57.588H459.992z M421.68,363.262
+      c-2.008-2.221-5.203-3.368-9.594-3.368c-4.59,0-7.883,1.147-9.879,3.368c-1.996,2.245-2.994,5.963-2.994,11.153v10.754h25.473
+      v-10.754C424.686,369.225,423.688,365.507,421.68,363.262z M300.855,444.228c2.195,0.898,4.516,1.322,6.961,1.322
+      c3.543,0,6.113-0.849,7.785-2.595c1.67-1.722,2.494-4.591,2.494-8.533v-62.178c0-4.191-1.023-7.36-3.068-9.531
+      c-2.059-2.171-5.064-3.244-8.957-3.244c-2.059,0-4.092,0.399-6.102,1.198c-2.008,0.823-3.991,2.096-5.95,3.792v75.402
+      C296.364,441.907,298.646,443.354,300.855,444.228z M490.496,312.587c0-29.941-30.754-54.219-68.654-54.219
+      c-54.068-1.822-109.396-2.62-165.842-2.521c-56.427-0.1-111.756,0.698-165.843,2.521c-37.881,0-68.633,24.277-68.633,54.219
+      c-2.277,23.678-3.263,47.381-3.175,71.085c-0.087,23.703,0.898,47.406,3.175,71.11c0,29.916,30.752,54.192,68.633,54.192
+      c54.087,1.797,109.416,2.596,165.843,2.521c56.446,0.075,111.774-0.724,165.842-2.521c37.9,0,68.654-24.276,68.654-54.192
+      c2.27-23.704,3.254-47.407,3.154-71.11C493.75,359.968,492.766,336.265,490.496,312.587z M121.251,463.465v1.797H88.778v-1.797
+      V321.644H55.182v-1.771v-22.605v-1.771h99.672v1.771v22.605v1.771h-33.603V463.465z M236.768,341.33v122.135v1.797h-28.831v-1.797
+      v-11.901c-5.327,5.064-10.848,8.882-16.592,11.527c-5.757,2.619-11.334,3.942-16.748,3.942c-6.662,0-11.684-1.847-15.065-5.515
+      c-3.387-3.692-5.078-9.231-5.078-16.617v-1.797V341.33v-1.772h28.844v1.772v93.216c0,2.92,0.599,5.065,1.802,6.363
+      c1.217,1.322,3.175,1.971,5.876,1.971c2.127,0,4.803-0.873,8.047-2.595c3.231-1.747,6.2-3.967,8.914-6.662V341.33v-1.772h28.831
+      V341.33z M347.775,370.847v66.943v1.797c0,8.808-2.258,15.544-6.773,20.235c-4.518,4.641-11.055,6.986-19.588,6.986
+      c-5.639,0-10.652-0.898-15.07-2.695c-4.428-1.821-8.532-4.616-12.325-8.384v7.735v1.797h-29.105v-1.797V297.267v-1.771h29.105
+      v1.771v52.297c3.893-3.793,8.009-6.662,12.376-8.608c4.379-1.971,8.809-2.969,13.273-2.969c9.107,0,16.094,2.645,20.896,7.935
+      c4.803,5.289,7.211,12.999,7.211,23.13V370.847z M454.365,374.64v29.767v1.797h-55.152v21.581c0,6.513,0.947,11.029,2.844,13.549
+      c1.908,2.521,5.152,3.793,9.742,3.793c4.779,0,8.135-1.073,10.043-3.219c1.896-2.121,2.844-6.837,2.844-14.123v-6.811v-1.796h29.68
+      v1.796v7.51v1.796c0,12.7-3.605,22.257-10.84,28.694c-7.225,6.438-18.016,9.631-32.375,9.631c-12.912,0-23.066-3.418-30.49-10.229
+      c-7.41-6.812-11.127-16.193-11.127-28.096v-1.796V374.64v-1.771c0-10.754,4.078-19.512,12.213-26.299
+      c8.146-6.762,18.689-10.155,31.588-10.155c13.199,0,23.328,3.144,30.416,9.406c7.061,6.264,10.615,15.296,10.615,27.048V374.64z"
+                      ></path>
+                    </g>
+                  </svg>
+                </a>
+              </div>
+
+              <h2 class="hero-head-text">I am Jonathan Doe</h2>
+              <p class="hero lead">
+                I'm Jonathan, professionally web developer with long time
+                experience in this field.
+              </p>
+              <div class="hero-cta">
+                <a class="work-cta-link" href="#Works">My Works</a>
+              </div>
+              <!-- <img src="../img/HTML5 Templates _ HTML5 Website Templates _ TemplateMonster.jpeg" alt=""> -->
+            </div>
+
+            <div class="hero banner-div">
+              <img
+                class="hero img-fluid"
+                src="../img/banner-3.png"
+                alt="A guy on a black shirt wearing an earpod "
+              />
+            </div>
+          </div>
+        </section>
+        <!-- END Hero Section -->
+
+        <!-- Services Section -->
+        <section id="Services" class="services-section text-light p-md-5">
+          <div class="container">
+            <div class="head-div text-center">
+              <span class="head-highlight-span">SERVICES</span>
+              <h3 class="section-sub-head">My services</h3>
+              <p class="section-sub-text mac-light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                sed sit iure dicta modi cum consectetur facilis quos autem
+                explicabo?
+              </p>
+              <span class="highlight-line"></span>
+            </div>
+
+            <div
+              class="services-container row gap-4 justify-content-center mt-4"
+            >
+              <div class="service-box col-md-3 py-4 px-3">
+                <span class="service-icon">
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    fill="#000000"
+                    height="90px"
+                    width="90px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 512.004 512.004"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <g>
+                          <path
+                            d="M452.463,0.002H59.546c-32.832,0-59.541,26.709-59.541,59.52v239.147h512V59.522
+				C512.004,26.711,485.295,0.002,452.463,0.002z M228.442,219.586c8.32,8.341,8.32,21.845-0.043,30.165
+				c-4.139,4.16-9.6,6.251-15.061,6.251c-5.461,0-10.944-2.091-15.104-6.251l-63.168-63.296c-2.283-2.069-4.139-4.651-5.397-7.616
+				c-3.285-7.979-1.515-17.152,4.587-23.253l64-64c8.341-8.341,21.824-8.341,30.165,0c8.341,8.341,8.341,21.824,0,30.165
+				l-48.875,48.875L228.442,219.586z M377.754,185.751l-64,64c-4.16,4.16-9.621,6.251-15.083,6.251
+				c-5.461,0-10.923-2.091-15.083-6.251c-8.341-8.341-8.341-21.824,0-30.165l48.875-48.875l-48.896-48.96
+				c-8.32-8.341-8.32-21.845,0.043-30.187c8.299-8.299,21.824-8.32,30.165,0.021l63.168,63.296c2.283,2.069,4.139,4.651,5.397,7.616
+				C385.626,170.477,383.855,179.65,377.754,185.751z"
+                          />
+                          <path
+                            d="M0,367.127c0,32.832,26.709,59.541,59.541,59.541h105.152l-10.667,42.667h-4.693c-11.776,0-21.333,9.557-21.333,21.333
+				s9.557,21.333,21.333,21.333h21.333h170.667h21.333c11.797,0,21.333-9.557,21.333-21.333s-9.536-21.333-21.333-21.333h-4.672
+				l-10.667-42.667h105.131c32.832,0,59.541-26.709,59.541-59.541v-25.792H0V367.127z M208.683,426.669h94.656l10.667,42.667
+				H198.016L208.683,426.669z"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <h4 class="my-3">Web development</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iste, iusto consectetur! Saepe voluptatibus esse ex commodi
+                  beatae rem, dolore rerum aspernatur consectetur, ad quo
+                </p>
+              </div>
+
+              <div class="service-box col-md-3 py-4 px-3">
+                <span class="service-icon">
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <svg
+                    fill="#000000"
+                    version="1.1"
+                    id="Capa_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    width="90px"
+                    height="90px"
+                    viewBox="0 0 71.68 71.68"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <path
+                          d="M42.336,42.336c-1.792,1.793-2.24,3.809,0.446,6.496c2.688,2.688,7.394,1.119,7.616,4.928
+			c2.688-4.256,1.119-8.512-1.566-11.199C46.145,39.871,43.904,40.545,42.336,42.336z"
+                        />
+                        <path
+                          d="M42.111,41.664c0.896-0.896,1.121-2.24,0.226-3.359c-1.345-2.017-20.16-18.369-20.16-18.369
+			c-0.896-0.896-2.24-1.119-2.688-0.447c-0.447,0.447-0.224,1.791,0.448,2.688c0,0,12.768,15.681,18.368,20.161
+			c1.12,0.672,2.465,0.672,3.36-0.227L42.111,41.664z"
+                        />
+                        <path
+                          d="M64.96,0H6.72C2.911,0,0,2.912,0,6.72v58.239c0,3.809,2.911,6.721,6.72,6.721h58.24c3.808,0,6.72-2.912,6.72-6.721V6.72
+			C71.68,2.912,68.768,0,64.96,0z M25.088,4.704c1.344,0,2.688,1.12,2.688,2.688c0,1.567-1.12,2.688-2.688,2.688
+			c-1.345,0-2.688-1.12-2.688-2.688S23.52,4.704,25.088,4.704z M17.472,4.704c1.344,0,2.688,1.12,2.688,2.688
+			c0,1.567-1.119,2.688-2.688,2.688c-1.569,0-2.688-1.12-2.688-2.688C14.783,5.824,16.128,4.704,17.472,4.704z M10.08,4.704
+			c1.344,0,2.688,1.12,2.688,2.688c0,1.567-1.12,2.688-2.688,2.688S7.392,8.96,7.392,7.392S8.736,4.704,10.08,4.704z M63.84,59.359
+			c0,2.466-2.017,4.48-4.48,4.48H12.32c-2.464,0-4.479-2.016-4.479-4.48V19.04c0-2.464,2.016-4.479,4.479-4.479h19.04
+			c4.256,0,4.48,0,4.48-2.24c0-2.912,2.016-4.479,4.479-4.479h19.041c2.465,0,4.479,2.016,4.479,4.479L63.84,59.359L63.84,59.359z"
+                        />
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <h4 class="my-3">Web design</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iste, iusto consectetur! Saepe voluptatibus esse ex commodi
+                  beatae rem, dolore rerum aspernatur consectetur, ad quo
+                </p>
+              </div>
+
+              <div class="service-box col-md-3 py-4 px-3">
+                <span class="service-icon">
+                  <?xml version="1.0" encoding="utf-8"?>
+
+                  <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    height="100px"
+                    width="100px"
+                    version="1.1"
+                    id="_x32_"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <style type="text/css">
+                      .st0 {
+                        fill: #000000;
+                      }
+                    </style>
+                    <g>
+                      <path
+                        class="st0"
+                        d="M412.61,0H99.383C71.261,0,48.466,22.796,48.466,50.917v413.164c0,13.108,5.37,25.649,14.856,34.687
+		c9.501,9.045,22.281,13.81,35.374,13.175l286.226-13.84v-0.008c10.651-0.09,20.869-2.285,30.168-6.222
+		c14.252-6.028,26.329-16.066,34.882-28.719c8.552-12.645,13.564-27.987,13.564-44.367V50.917C463.534,22.796,440.732,0,412.61,0z
+		 M433.949,418.788c-0.007,6.916-1.397,13.415-3.906,19.36c-3.764,8.904-10.098,16.537-18.046,21.9
+		c-7.947,5.37-17.44,8.478-27.793,8.485c-6.512-0.008-12.958-1.562-19.151-4.698c-9.254-4.705-17.978-13.056-24.498-25.306
+		c-6.506-12.234-10.763-28.36-10.771-48.184v-8.828c0-3.025-1.516-5.841-4.041-7.506c-2.524-1.658-5.722-1.942-8.493-0.74
+		l-222.476,95.86c-3.704,1.591-7.962,1.224-11.33-0.994c-3.368-2.218-5.393-5.983-5.393-10.009V53.546
+		c0-13.235,10.726-23.961,23.954-23.961h307.976c13.235,0,23.968,10.726,23.968,23.961V418.788z"
+                      />
+                      <path
+                        class="st0"
+                        d="M214.99,180.403c-0.754-0.434-1.666-0.456-2.42-0.038c-0.762,0.418-1.195,1.21-1.195,2.084v60.686v60.709
+		c0,0.874,0.433,1.651,1.195,2.062c0.754,0.44,1.666,0.418,2.42,0l101.67-60.725c0.724-0.433,1.157-1.21,1.157-2.047
+		c0-0.829-0.433-1.628-1.157-2.039L214.99,180.403z"
+                      />
+                    </g>
+                  </svg>
+                </span>
+                <h4 class="my-3">Video editing</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iste, iusto consectetur! Saepe voluptatibus esse ex commodi
+                  beatae rem, dolore rerum aspernatur consectetur, ad quo
+                </p>
+              </div>
+
+              <div class="service-box col-md-3 py-4 px-3">
+                <span class="service-icon">
+                  <?xml version="1.0" encoding="UTF-8" standalone="no"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    width="100px"
+                    height="100px"
+                    viewBox="0 -2 32 32"
+                    version="1.1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    xmlns:sketch="http://www.bohemiancoding.com/sketch/ns"
+                  >
+                    <title>camera</title>
+                    <desc>Created with Sketch Beta.</desc>
+                    <defs></defs>
+                    <g
+                      id="Page-1"
+                      stroke="none"
+                      stroke-width="1"
+                      fill="none"
+                      fill-rule="evenodd"
+                      sketch:type="MSPage"
+                    >
+                      <g
+                        id="Icon-Set-Filled"
+                        sketch:type="MSLayerGroup"
+                        transform="translate(-258.000000, -467.000000)"
+                        fill="#000000"
+                      >
+                        <path
+                          d="M286,471 L283,471 L282,469 C281.411,467.837 281.104,467 280,467 L268,467 C266.896,467 266.53,467.954 266,469 L265,471 L262,471 C259.791,471 258,472.791 258,475 L258,491 C258,493.209 259.791,495 262,495 L286,495 C288.209,495 290,493.209 290,491 L290,475 C290,472.791 288.209,471 286,471 Z M274,491 C269.582,491 266,487.418 266,483 C266,478.582 269.582,475 274,475 C278.418,475 282,478.582 282,483 C282,487.418 278.418,491 274,491 Z M274,477 C270.687,477 268,479.687 268,483 C268,486.313 270.687,489 274,489 C277.313,489 280,486.313 280,483 C280,479.687 277.313,477 274,477 L274,477 Z"
+                          id="camera"
+                          sketch:type="MSShapeGroup"
+                        ></path>
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <h4 class="my-3">Photography</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iste, iusto consectetur! Saepe voluptatibus esse ex commodi
+                  beatae rem, dolore rerum aspernatur consectetur, ad quo
+                </p>
+              </div>
+
+              <div class="service-box col-md-3 py-4 px-3">
+                <span class="service-icon">
+                  <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    width="100px"
+                    height="100px"
+                    viewBox="0 0 24 24"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M18 13C15.24 13 13 15.24 13 18C13 20.76 15.24 23 18 23C20.76 23 23 20.76 23 18C23 15.24 20.76 13 18 13ZM17.16 19.27C17.41 19.52 17.41 19.93 17.16 20.19C17.03 20.32 16.87 20.38 16.7 20.38C16.53 20.38 16.37 20.32 16.24 20.19L14.51 18.46C14.26 18.21 14.26 17.8 14.51 17.54L16.24 15.81C16.49 15.56 16.9 15.56 17.16 15.81C17.41 16.06 17.41 16.47 17.16 16.73L15.89 18L17.16 19.27ZM21.48 18.46L19.75 20.19C19.62 20.32 19.46 20.38 19.29 20.38C19.12 20.38 18.96 20.32 18.83 20.19C18.58 19.94 18.58 19.53 18.83 19.27L20.11 18L18.84 16.73C18.59 16.48 18.59 16.07 18.84 15.81C19.09 15.56 19.5 15.56 19.76 15.81L21.49 17.54C21.73 17.8 21.73 18.2 21.48 18.46Z"
+                      fill="#292D32"
+                    />
+                    <path
+                      d="M21 7.00078V11.4708C21 11.8208 20.66 12.0608 20.34 11.9408C19.23 11.5108 17.99 11.3708 16.69 11.6308C14.09 12.1508 12.02 14.2808 11.59 16.9008C11.33 18.5008 11.65 20.0108 12.38 21.2408C12.58 21.5808 12.34 22.0008 11.95 22.0008H8C4.5 22.0008 3 20.0008 3 17.0008V7.00078C3 4.34078 4.18 2.47078 6.89 2.08078C7.18 2.04078 7.44 2.27078 7.45 2.57078L7.48 3.58078C7.51 5.18078 8.86 6.50078 10.48 6.50078H13.5C15.15 6.50078 16.5 5.15078 16.5 3.50078V2.57078C16.5 2.27078 16.76 2.03078 17.05 2.07078C19.8 2.44078 21 4.32078 21 7.00078Z"
+                      fill="#292D32"
+                    />
+                    <path
+                      d="M14.9996 3V3.5C14.9996 4.32 14.3196 5 13.4996 5H10.4696C9.65963 5 8.98963 4.35 8.96963 3.54L8.95963 3.03C8.93963 2.46 9.38963 2 9.95963 2H13.9996C14.5496 2 14.9996 2.45 14.9996 3Z"
+                      fill="#292D32"
+                    />
+                  </svg>
+                </span>
+                <h4 class="my-3">App developing</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iste, iusto consectetur! Saepe voluptatibus esse ex commodi
+                  beatae rem, dolore rerum aspernatur consectetur, ad quo
+                </p>
+              </div>
+
+              <div class="service-box col-md-3 py-4 px-3">
+                <span class="service-icon">
+                  <?xml version="1.0" encoding="iso-8859-1"?>
+                  <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                  <svg
+                    fill="#000000"
+                    height="100px"
+                    width="100px"
+                    version="1.1"
+                    id="Layer_1"
+                    xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                    viewBox="0 0 512 512"
+                    xml:space="preserve"
+                  >
+                    <g>
+                      <g>
+                        <g>
+                          <path
+                            d="M490.667,469.333h-448v-448C42.667,9.557,33.131,0,21.333,0C9.536,0,0,9.557,0,21.333v469.333
+                            C0,502.443,9.536,512,21.333,512h469.333c11.797,0,21.333-9.557,21.333-21.333S502.464,469.333,490.667,469.333z"
+                          />
+                          <path
+                            d="M490.667,298.667H384V256h21.333c11.797,0,21.333-9.557,21.333-21.333v-85.333c0-11.776-9.536-21.333-21.333-21.333
+                            H298.667V64c0-11.776-9.536-21.333-21.333-21.333H106.667c-11.797,0-21.333,9.557-21.333,21.333v85.333v85.333V320v85.333
+                            c0,11.776,9.536,21.333,21.333,21.333h384c11.797,0,21.333-9.557,21.333-21.333V320C512,308.224,502.464,298.667,490.667,298.667
+                            z M128,170.667h149.333H384v42.667h-21.333H128V170.667z M469.333,384H128v-42.667h234.667h106.667V384z"
+                          />
+                        </g>
+                      </g>
+                    </g>
+                  </svg>
+                </span>
+                <h4 class="my-3">SEO Report</h4>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Iste, iusto consectetur! Saepe voluptatibus esse ex commodi
+                  beatae rem, dolore rerum aspernatur consectetur, ad quo
+                </p>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--END Services Section -->
+
+        <!-- About Section -->
+        <section id="About" class="about-section text-light p-md-5 bg-main">
+          <div class="container">
+            <div class="head-div text-center">
+              <h3 class="section-sub-head">About me</h3>
+              <p class="section-sub-text mac-light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                sed sit iure dicta modi cum consectetur facilis quos autem
+                explicabo?
+              </p>
+              <span class="highlight-line"></span>
+            </div>
+
+            <div
+              class="about-content-wrapper mt-3 gap-5 d-md-flex align-items-center justify-content-between"
+            >
+              <div class="banner-div">
+                <img
+                  class="img-fluid"
+                  src="../img/banner-3.png"
+                  alt="A picture of a man wearing a glass and a black shirt"
+                />
+              </div>
+              <div class="content-div">
+                <h3 class="section-sub-head">Hi there</h3>
+                <div class="my-4">
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Obcaecati laborum accusamus quaerat quidem animi quos sed,
+                    distinctio quisquam mollitia, soluta earum laudantium
+                    perspiciatis adipisci quasi.
+                  </p>
+                  <p class="lead">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Similique doloremque labore voluptatibus dolor amet impedit!
+                  </p>
+                </div>
+                <div class="row justify-content-between align-items-center">
+                  <div class="col-md about-info-div">
+                    <span class="info-headline-span">Name:</span>
+                    <p class="lead">Jonathan Doe</p>
+                  </div>
+
+                  <div class="col-md about-info-div">
+                    <span class="info-headline-span">Phone:</span>
+                    <p class="lead">+1 023 454 346</p>
+                  </div>
+                </div>
+
+                <div class="row">
+                  <div class="col-md about-info-div">
+                    <span class="info-headline-span">Email:</span>
+                    <p class="lead">example@domain.com</p>
+                  </div>
+
+                  <div class="col-md about-info-div">
+                    <span class="info-headline-span">LinkedIn:</span>
+                    <p class="lead">Jonathan_123</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- END About Section -->
+
+        <!-- Projects Section -->
+        <section
+          id="Works"
+          class="project-section dark-bg-main p-md-5 text-light"
+        >
+          <div class="container">
+            <div class="head-div text-center">
+              <h3 class="section-sub-head">My works</h3>
+              <p class="section-sub-text mac-light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                sed sit iure dicta modi cum consectetur facilis quos autem
+                explicabo?
+              </p>
+              <span class="highlight-line"></span>
+            </div>
+
+            <div
+              class="projects-items-container row gap-3 justify-content-center mt-4"
+            >
+              <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-11.jpeg" alt="" />
+              </div>
+
+              <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-5.jpg" alt="" />
+              </div>
+
+              <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-10.jpeg" alt="" />
+              </div>
+
+              <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-7.jpeg" alt="" />
+              </div>
+
+              <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-8.jpeg" alt="" />
+              </div>
+
+              <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-9.jpeg" alt="" />
+              </div>
+
+              <!-- <div class="project-item col-md-3 p-none">
+                <img class="img-fluid" src="../img/bg-10.jpeg" alt="" />
+              </div> -->
+            </div>
+          </div>
+        </section>
+        <!-- END Projects Section -->
+
+        <!-- Projects Section -->
+        <section id="Skills" class="skills-section bg-main text-light p-md-5">
+          <div class="container">
+            <div class="head-div text-center">
+              <h3 class="section-sub-head">My Skills</h3>
+              <p class="section-sub-text mac-light-text">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam,
+                sed sit iure dicta modi cum consectetur facilis quos autem
+                explicabo?
+              </p>
+              <span class="highlight-line"></span>
+            </div>
+
+            <div
+              class="skills-items-container row gap-md-3 justify-content-between mt-3"
+            >
+              <div class="col-md-5 p-none">
+                <div class="skills-item">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <span class="lead">Web design</span>
+                    <span class="lead">65%</span>
+                  </div>
+
+                  <div class="progress mt-3">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+
+                <div class="skills-item html">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <span class="lead">Html/Css</span>
+                    <span class="lead">95%</span>
+                  </div>
+
+                  <div class="progress mt-3">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+
+                <div class="skills-item js">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <span class="lead">Javascript</span>
+                    <span class="lead">80%</span>
+                  </div>
+
+                  <div class="progress mt-3">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-5 p-none">
+                <div class="skills-item react">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <span class="lead">React JS</span>
+                    <span class="lead">70%</span>
+                  </div>
+
+                  <div class="progress mt-3">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+
+                <div class="skills-item angular">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <span class="lead">Angular JS</span>
+                    <span class="lead">65%</span>
+                  </div>
+
+                  <div class="progress mt-3">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+
+                <div class="skills-item boostrap">
+                  <div
+                    class="d-flex align-items-center justify-content-between"
+                  >
+                    <span class="lead">Boostrap</span>
+                    <span class="lead">99%</span>
+                  </div>
+
+                  <div class="progress mt-3">
+                    <div class="progress-bar"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <a href="#" class="download-btn">Download CV</a>
+          </div>
+        </section>
+        <!-- END Projects Section -->
+
+        <!-- Resume Section -->
+        <!-- <section class="resume-section "></section> -->
+        <!-- END Resume Section -->
+
+        <!-- Contact Section -->
+        <section
+          id="Contact"
+          class="contact-section dark-bg-main text-light p-md-5"
+        >
+          <div class="container">
+            <div class="row gap-3 justify-content-between">
+              <div class="col-md-5 contact-content-div">
+                <h3 class="section-sub-head">Let's get in touch</h3>
+                <p class="lead mt-5">
+                  I enjoy discussing new projects and design challenges. Pls
+                  Share as much info as possible so we can get the most out our
+                  first catch-up.
+                </p>
+
+                <div class="mt-5 contact-content-details-container">
+                  <div>
+                    <h5>Living in:</h5>
+                    <p class="lead">30, Shacam street, LOS Angeles, USA</p>
+                  </div>
+
+                  <div>
+                    <h5>Call in:</h5>
+                    <p class="lead">2145 - 5467 - 5378</p>
+                  </div>
+                </div>
+
+                <div class="contact-social-container d-flex gap-4 mt-5">
+                  <a href="#" class="span-icon">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg
+                      fill="#000000"
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M12 2.03998C6.5 2.03998 2 6.52998 2 12.06C2 17.06 5.66 21.21 10.44 21.96V14.96H7.9V12.06H10.44V9.84998C10.44 7.33998 11.93 5.95998 14.22 5.95998C15.31 5.95998 16.45 6.14998 16.45 6.14998V8.61998H15.19C13.95 8.61998 13.56 9.38998 13.56 10.18V12.06H16.34L15.89 14.96H13.56V21.96C15.9164 21.5878 18.0622 20.3855 19.6099 18.57C21.1576 16.7546 22.0054 14.4456 22 12.06C22 6.52998 17.5 2.03998 12 2.03998Z"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#" class="span-icon">
+                    <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                      stroke="#000000"
+                      stroke-width="0.36"
+                    >
+                      <g id="SVGRepo_bgCarrier" stroke-width="0" />
+                      <g
+                        id="SVGRepo_tracerCarrier"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <g id="SVGRepo_iconCarrier">
+                        <path
+                          fill-rule="evenodd"
+                          clip-rule="evenodd"
+                          d="M19.7828 3.91825C20.1313 3.83565 20.3743 3.75444 20.5734 3.66915C20.8524 3.54961 21.0837 3.40641 21.4492 3.16524C21.7563 2.96255 22.1499 2.9449 22.4739 3.11928C22.7979 3.29366 23 3.6319 23 3.99986C23 5.08079 22.8653 5.96673 22.5535 6.7464C22.2911 7.40221 21.9225 7.93487 21.4816 8.41968C21.2954 11.7828 20.3219 14.4239 18.8336 16.4248C17.291 18.4987 15.2386 19.8268 13.0751 20.5706C10.9179 21.3121 8.63863 21.4778 6.5967 21.2267C4.56816 20.9773 2.69304 20.3057 1.38605 19.2892C1.02813 19.0108 0.902313 18.5264 1.07951 18.109C1.25671 17.6916 1.69256 17.4457 2.14144 17.5099C3.42741 17.6936 4.6653 17.4012 5.6832 16.9832C5.48282 16.8742 5.29389 16.7562 5.11828 16.6346C4.19075 15.9925 3.4424 15.1208 3.10557 14.4471C2.96618 14.1684 2.96474 13.8405 3.10168 13.5606C3.17232 13.4161 3.27562 13.293 3.40104 13.1991C2.04677 12.0814 1.49999 10.5355 1.49999 9.49986C1.49999 9.19192 1.64187 8.90115 1.88459 8.71165C1.98665 8.63197 2.10175 8.57392 2.22308 8.53896C2.12174 8.24222 2.0431 7.94241 1.98316 7.65216C1.71739 6.3653 1.74098 4.91284 2.02985 3.75733C2.1287 3.36191 2.45764 3.06606 2.86129 3.00952C3.26493 2.95299 3.6625 3.14709 3.86618 3.50014C4.94369 5.36782 6.93116 6.50943 8.78086 7.18568C9.6505 7.50362 10.4559 7.70622 11.0596 7.83078C11.1899 6.61019 11.5307 5.6036 12.0538 4.80411C12.7439 3.74932 13.7064 3.12525 14.74 2.84698C16.5227 2.36708 18.5008 2.91382 19.7828 3.91825ZM10.7484 9.80845C10.0633 9.67087 9.12171 9.43976 8.09412 9.06408C6.7369 8.56789 5.16088 7.79418 3.84072 6.59571C3.86435 6.81625 3.89789 7.03492 3.94183 7.24766C4.16308 8.31899 4.5742 8.91899 4.94721 9.10549C5.40342 9.3336 5.61484 9.8685 5.43787 10.3469C5.19827 10.9946 4.56809 11.0477 3.99551 10.9046C4.45603 11.595 5.28377 12.2834 6.66439 12.5135C7.14057 12.5929 7.49208 13.0011 7.49986 13.4838C7.50765 13.9665 7.16949 14.3858 6.69611 14.4805L5.82565 14.6546C5.95881 14.7703 6.103 14.8838 6.2567 14.9902C6.95362 15.4727 7.65336 15.6808 8.25746 15.5298C8.70991 15.4167 9.18047 15.6313 9.39163 16.0472C9.60278 16.463 9.49846 16.9696 9.14018 17.2681C8.49626 17.8041 7.74425 18.2342 6.99057 18.5911C6.63675 18.7587 6.24134 18.9241 5.8119 19.0697C6.14218 19.1402 6.48586 19.198 6.84078 19.2417C8.61136 19.4594 10.5821 19.3126 12.4249 18.6792C14.2614 18.0479 15.9589 16.9385 17.2289 15.2312C18.497 13.5262 19.382 11.1667 19.5007 7.96291C19.51 7.71067 19.6144 7.47129 19.7929 7.29281C20.2425 6.84316 20.6141 6.32777 20.7969 5.7143C20.477 5.81403 20.1168 5.90035 19.6878 5.98237C19.3623 6.04459 19.0272 5.94156 18.7929 5.70727C18.0284 4.94274 16.5164 4.43998 15.2599 4.77822C14.6686 4.93741 14.1311 5.28203 13.7274 5.89906C13.3153 6.52904 13 7.51045 13 8.9999C13 9.28288 12.8801 9.5526 12.6701 9.74221C12.1721 10.1917 11.334 9.92603 10.7484 9.80845Z"
+                          fill="#0F0F0F"
+                        />
+                      </g>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="span-icon">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 18C15.3137 18 18 15.3137 18 12C18 8.68629 15.3137 6 12 6C8.68629 6 6 8.68629 6 12C6 15.3137 8.68629 18 12 18ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"
+                        fill="#0F0F0F"
+                      />
+                      <path
+                        d="M18 5C17.4477 5 17 5.44772 17 6C17 6.55228 17.4477 7 18 7C18.5523 7 19 6.55228 19 6C19 5.44772 18.5523 5 18 5Z"
+                        fill="#0F0F0F"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M1.65396 4.27606C1 5.55953 1 7.23969 1 10.6V13.4C1 16.7603 1 18.4405 1.65396 19.7239C2.2292 20.8529 3.14708 21.7708 4.27606 22.346C5.55953 23 7.23969 23 10.6 23H13.4C16.7603 23 18.4405 23 19.7239 22.346C20.8529 21.7708 21.7708 20.8529 22.346 19.7239C23 18.4405 23 16.7603 23 13.4V10.6C23 7.23969 23 5.55953 22.346 4.27606C21.7708 3.14708 20.8529 2.2292 19.7239 1.65396C18.4405 1 16.7603 1 13.4 1H10.6C7.23969 1 5.55953 1 4.27606 1.65396C3.14708 2.2292 2.2292 3.14708 1.65396 4.27606ZM13.4 3H10.6C8.88684 3 7.72225 3.00156 6.82208 3.0751C5.94524 3.14674 5.49684 3.27659 5.18404 3.43597C4.43139 3.81947 3.81947 4.43139 3.43597 5.18404C3.27659 5.49684 3.14674 5.94524 3.0751 6.82208C3.00156 7.72225 3 8.88684 3 10.6V13.4C3 15.1132 3.00156 16.2777 3.0751 17.1779C3.14674 18.0548 3.27659 18.5032 3.43597 18.816C3.81947 19.5686 4.43139 20.1805 5.18404 20.564C5.49684 20.7234 5.94524 20.8533 6.82208 20.9249C7.72225 20.9984 8.88684 21 10.6 21H13.4C15.1132 21 16.2777 20.9984 17.1779 20.9249C18.0548 20.8533 18.5032 20.7234 18.816 20.564C19.5686 20.1805 20.1805 19.5686 20.564 18.816C20.7234 18.5032 20.8533 18.0548 20.9249 17.1779C20.9984 16.2777 21 15.1132 21 13.4V10.6C21 8.88684 20.9984 7.72225 20.9249 6.82208C20.8533 5.94524 20.7234 5.49684 20.564 5.18404C20.1805 4.43139 19.5686 3.81947 18.816 3.43597C18.5032 3.27659 18.0548 3.14674 17.1779 3.0751C16.2777 3.00156 15.1132 3 13.4 3Z"
+                        fill="#0F0F0F"
+                      />
+                    </svg>
+                  </a>
+
+                  <a href="#" class="span-icon">
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg
+                      fill="#000000"
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 32 32"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <title>linkedin</title>
+                      <path
+                        d="M28.778 1.004h-25.56c-0.008-0-0.017-0-0.027-0-1.199 0-2.172 0.964-2.186 2.159v25.672c0.014 1.196 0.987 2.161 2.186 2.161 0.010 0 0.019-0 0.029-0h25.555c0.008 0 0.018 0 0.028 0 1.2 0 2.175-0.963 2.194-2.159l0-0.002v-25.67c-0.019-1.197-0.994-2.161-2.195-2.161-0.010 0-0.019 0-0.029 0h0.001zM9.9 26.562h-4.454v-14.311h4.454zM7.674 10.293c-1.425 0-2.579-1.155-2.579-2.579s1.155-2.579 2.579-2.579c1.424 0 2.579 1.154 2.579 2.578v0c0 0.001 0 0.002 0 0.004 0 1.423-1.154 2.577-2.577 2.577-0.001 0-0.002 0-0.003 0h0zM26.556 26.562h-4.441v-6.959c0-1.66-0.034-3.795-2.314-3.795-2.316 0-2.669 1.806-2.669 3.673v7.082h-4.441v-14.311h4.266v1.951h0.058c0.828-1.395 2.326-2.315 4.039-2.315 0.061 0 0.121 0.001 0.181 0.003l-0.009-0c4.5 0 5.332 2.962 5.332 6.817v7.855z"
+                      ></path>
+                    </svg>
+                  </a>
+
+                  <a href="#" class="span-icon">
+                    <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 24 24"
+                      fill="none"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M6.014 8.00613C6.12827 7.1024 7.30277 5.87414 8.23488 6.01043L8.23339 6.00894C9.14051 6.18132 9.85859 7.74261 10.2635 8.44465C10.5504 8.95402 10.3641 9.4701 10.0965 9.68787C9.7355 9.97883 9.17099 10.3803 9.28943 10.7834C9.5 11.5 12 14 13.2296 14.7107C13.695 14.9797 14.0325 14.2702 14.3207 13.9067C14.5301 13.6271 15.0466 13.46 15.5548 13.736C16.3138 14.178 17.0288 14.6917 17.69 15.27C18.0202 15.546 18.0977 15.9539 17.8689 16.385C17.4659 17.1443 16.3003 18.1456 15.4542 17.9421C13.9764 17.5868 8 15.27 6.08033 8.55801C5.97237 8.24048 5.99955 8.12044 6.014 8.00613Z"
+                        fill="#0F0F0F"
+                      />
+                      <path
+                        fill-rule="evenodd"
+                        clip-rule="evenodd"
+                        d="M12 23C10.7764 23 10.0994 22.8687 9 22.5L6.89443 23.5528C5.56462 24.2177 4 23.2507 4 21.7639V19.5C1.84655 17.492 1 15.1767 1 12C1 5.92487 5.92487 1 12 1C18.0751 1 23 5.92487 23 12C23 18.0751 18.0751 23 12 23ZM6 18.6303L5.36395 18.0372C3.69087 16.4772 3 14.7331 3 12C3 7.02944 7.02944 3 12 3C16.9706 3 21 7.02944 21 12C21 16.9706 16.9706 21 12 21C11.0143 21 10.552 20.911 9.63595 20.6038L8.84847 20.3397L6 21.7639V18.6303Z"
+                        fill="#0F0F0F"
+                      />
+                    </svg>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-5 contact-form-wrapper mt-4 mt-md-0">
+                <h3 class="section-sub-head">Estimate your Project?</h3>
+                <form class="contact-form mt-5" action="">
+                  <div class="input-container">
+                    <label for="name-input">What is your name:</label>
+                    <input id="name-input" name="name" type="text" />
+                  </div>
+
+                  <div class="input-container">
+                    <label for="email-input">Your Email Address:</label>
+                    <input id="email-input" name="email" type="email" />
+                  </div>
+
+                  <div class="input-container">
+                    <label for="message-input">Your message:</label>
+                    <textarea name="message" id="message-input"></textarea>
+                  </div>
+
+                  <button class="submit-btn" type="submit">
+                    <span>Send</span>
+                    <?xml version="1.0" encoding="utf-8"?>
+                    <!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                    <svg
+                      width="800px"
+                      height="800px"
+                      viewBox="0 0 1024 1024"
+                      class="icon"
+                      version="1.1"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        d="M768 903.232l-50.432 56.768L256 512l461.568-448 50.432 56.768L364.928 512z"
+                        fill="#000000"
+                      />
+                    </svg>
+                  </button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--END Contact Section -->
+      </main>
+
+      <footer
+        class=" p-3 bg-main text-light"
+      >
+        <div class="container d-flex justify-content-between align-items-center">
+          <a class="logo-brand" href="#">LexCorp</a>
+          <p class="regular-p">
+           © 2024 <a class="logo-brand" href="#">LexCorp</a> - All rights
+            reserved
+          </p>
+        </div>
+      </footer>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
